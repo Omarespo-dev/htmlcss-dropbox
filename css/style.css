@@ -54,7 +54,7 @@ header{
 }
 
 .button-header{
-    background-color: dodgerblue;
+    background-color: #0061fe;
     border-style: none;
     padding: 7px 10px 7px 10px;
     color: white;
@@ -68,50 +68,131 @@ header{
 .container-jumbo{
     display: flex;
     flex-direction: row;
-    height: 600px;
+    height: 700px;
     justify-content: center;
     background-color:rgb(180,204,228);
 }
+
 
 .jumbotron{
     flex-basis: 70%;
     /* background-color: deeppink; */
     margin: 40px;
-    border: 3px dotted black;
+    /* border: 3px dotted black; */
+    height: 650px;
+    background-size: contain;
+    background-position: right; 
+    background-repeat: no-repeat; 
+}  
+
+
+.img-jumbo{
+  
 }
 
 
 
 
+#size-h1{
+    font-size: 90px;
+}
+
+.paragraf-size{
+    font-size: 20px;
+    width: 33%;
+    margin-top: 3%;
+    color:black;
+}
+
+.button-jumbo{
+    background-color: #0061fe;
+    border-style: none;
+    padding: 7px 10px 7px 10px;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-top: 3%;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#size-nav-jumbo{
+    font-size: 18px;
+}
 
 /* PARTE MAIN CON CONTAINER 2 */
 
 .container-due{
     display: flex;
     flex-direction: row;
-    height: 800px;
+    height: 900px;
     justify-content: center;
+    margin-top: 2%;
     
 }
 
 .pink{
     /* background-color: violet; */
-    height: 500px;
+    height: 900px;
     flex-basis: 30%;
     /* margin-top: 20%; */
-    border: 3px dotted black;
+    border: 3px solid whitesmoke;
+    /* border-top: red solid 3px; */
+    
+}
+
+.border{
+    border-bottom: whitesmoke solid 3px;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
 }
 
 .main-pink{
-    height: 800px;
-    border: 3px dotted black;
+    height: 900px;
+    /* border: 3px dotted black; */
     flex-basis: 55%;
     display: flex;
     flex-direction: row;
-    /* gap: 40px; */
+    gap: 55px;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    
 }
+
+
+
+
+
+
+/* PARTE MAIN CON CONTAINER  INTESTAZIONE 2 */
+
+.container--3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 200px; */
+    /* border: 3px dotted black; */
+    flex-basis: 50%;
+    text-align: start;
+    margin-top: 2%;
+}
+
+.enterprise--column{
+    height: 250px;
+    /* border: 3px dotted black; */
+    flex-basis: 55%;
+}
+
+.set-h1{
+    font-size: 40px;
+    
+}
+
+
+
+
+
 
 
 
@@ -128,10 +209,11 @@ header{
 }
 
 .enterprise-column{
-    height: 200px;
+    height: 250px;
     border: 3px dotted black;
     flex-basis: 55%;
 }
+
 
 
     /* PARTE MAIN CON CONTAINER 4 */
@@ -140,15 +222,15 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 500px;
+    height: 550px;
     /* border: 3px dotted black; */
     margin-top: 10%;
     
 }   
 
 .partner-dropbox{
-    height: 500px;
-    border: 3px dotted black;
+    height: 550px;
+    /* border: 3px dotted black; */
     flex-basis: 55%;
     display: flex;
     flex-direction: row;
@@ -158,9 +240,14 @@ header{
 .img-4{
     /* background-color: violet; */
     /* height: 500px; */
-    flex-basis: 60%;
+    flex-basis: 61%;
     /* margin-top: 20%; */
-    border: 3px dotted black;
+    /* border: 3px dotted black; */
+}
+
+
+#partner{
+    width: 100%;
 }
 
 .text-4{
@@ -168,13 +255,61 @@ header{
     /* height: 500px; */
     flex-basis: 35%;
     /* margin-top: 20%; */
-    border: 3px dotted black;
+    /* border: 3px dotted black; */
+
+}
+
+#h4-partner{
+    font-size: 25px;
+    margin-top: 20%;
+}
+
+
+.p-partner{
+    font-size: 20px;
+    margin-top: 5%;
+    color:black;
+
+}
+
+.button-partner{
+    background-color: white;
+    border: solid black 2px;
+    padding: 7px 10px 7px 10px;
+    color: black;
+    cursor: pointer;
+    margin-top: 3%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+/* PARTE MAIN CON CONTAINER 5 */
+
+.container--5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    /* border: 3px dotted black; */
+    
+    text-align: start;
+    margin-top: 5%;
+}
+
+
+
+.title-5{
+    height: 50px;
+    /* border: 3px dotted black; */
+    flex-basis: 55%;
 
 }
 
 
 
-/* PARTE MAIN CON CONTAINER 5 */
 
 .container-5{
     display: flex;
@@ -182,13 +317,13 @@ header{
     justify-content: center;
     height: 1110px;
     /* border: 3px dotted black; */
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 
 .dropbox-business{
-    height: 1110px;
-    border: 3px dotted black;
+    height: 1000px;
+    /* border: 3px dotted black; */
     flex-basis: 55%;
     display: flex;
     flex-direction: row;
@@ -200,9 +335,70 @@ header{
 .item-dropbox{
     height: 450px;
     flex-basis: 31%;
-    border: 3px dotted black;
-    margin-top: 100px;
+    /* border: 3px dotted black; */
+    align-content: end;
+    text-align: start;
+    
 }
+
+.h1-5{
+    font-size: 20px;
+    
+}
+
+.paragraf-5{
+    font-size: 15px;
+    width: 85%;
+    margin-top: 30px;
+    color: black;
+}
+
+
+/* IMMAGINI */
+
+
+.img-1{
+    background-image: url(../img/business-feature-switching-tools.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    
+}
+
+.img-2{
+    background-image: url(../img/business-feature-send-files-it.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    
+}
+
+.img-3{
+    background-image: url(../img/business-feature-coordinate-it.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    
+}
+
+.img-4{
+    background-image: url(../img/business-feature-integrations-it.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    
+}
+
+.img-5{
+    background-image: url(../img/business-feature-multi-device.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    
+}
+
+.img-6{
+    background-image: url(../img/business-feature-security.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    
+}
+
 
 
 
@@ -213,18 +409,21 @@ header{
     justify-content: center;
     height: 300px;
     /* border: 3px dotted black; */
-    margin-top: 10%;
+   
 }
 
 .item-6{
     height: 300px;
-    border: 3px dotted black;
+    /* border: 3px dotted black; */
     flex-basis: 55%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    
 }
 
+#h1-6{
+    font-size: 40px;
+    width: 68%;
+    margin-bottom: 10%;
+}
 
 
 /* INIZIO PARTE FOOTER CONTAINER 7 */
